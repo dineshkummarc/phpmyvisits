@@ -21,7 +21,7 @@
 	$rec_visitor = mysqli_num_rows($result);
 	$total_visitors = $rec_visitor + 1;
 
-	// MENGECEK QUERY BERJALAN DENGAN BAIK ATAU TIDAK
+	// CHECKING QUERY WAS WORKING OR NOT
 	if (!result){
 		die("Retriving Query Error<br>".$query);
 	}
