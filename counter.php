@@ -138,7 +138,7 @@ RESET DATA</a>
 	</div>
 	<div class="container d-flex justify-content-center">
 		<div class="page-footer m-5">
-			<p>Copyright @ 2020 | <a href="https://github.com/janzenfaidiban" target="_blank">Janzen Faidiban</a></p>
+			<p>Copyright @ 2021 | <a href="https://github.com/dineshkummarc" target="_blank">RHS</a></p>
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
