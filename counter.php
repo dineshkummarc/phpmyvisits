@@ -15,7 +15,7 @@
 	$query = "SELECT * FROM counter_table WHERE ip_address='$visitor_ip'";
 	$result = mysqli_query($connection, $query);
 
-	// MENAMPILKAN JUMLAH PENGUNJUNG
+	// SHOWING THE NUMBER OF VISITORS
 	$query = "SELECT * FROM counter_table";
 	$result = mysqli_query($connection, $query);
 	$rec_visitor = mysqli_num_rows($result);
