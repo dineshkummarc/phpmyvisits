@@ -26,7 +26,7 @@
 		die("Retriving Query Error<br>".$query);
 	}
 
-	// MEMBACA ALAMAT IP PENGUNJUNG
+	// EAD VISITORS IP ADDRESS
 	$visitor_ip = $_SERVER['REMOTE_ADDR'];
 
 	// MENAMBAH DATA PENGUNJUNG BARU
