@@ -11,7 +11,7 @@
 		die("Error connection to the Database");
 	}
 
-	// MENGECEK PENGUNJUNG DI DATABASE
+	// CHECKING VISITORS ON THE DATABASE
 	$query = "SELECT * FROM counter_table WHERE ip_address='$visitor_ip'";
 	$result = mysqli_query($connection, $query);
 
