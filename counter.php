@@ -82,7 +82,7 @@ RESET DATA</a>
 				      <th scope="col">ID</th>
 				      <th scope="col">IP Address</th>
 				      <th scope="col">Date</th>
-				      <th scope="col">Waktu</th>
+				      <th scope="col">Time</th>
 				    </tr>
 				  </thead>
 				  <tbody>
