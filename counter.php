@@ -35,7 +35,7 @@
 		$result = mysqli_query($connection, $query);
 	}
 
-	// MENGHAPUS DATA DALAM TABEL
+	// ERASE DATA IN TABLE
 	if(isset($_GET['hapus'])) {
 		$query = "TRUNCATE TABLE counter_table";
 		$result = mysqli_query($connection, $query);
