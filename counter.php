@@ -69,7 +69,7 @@
 						<h1 class="display-1"><?php echo $total_visitors; ?></h1>
 					</div>
 					<div class="card-footer">
-						<a href="counter.php" class="btn btn-primary btn-block"><i class="fa fa-refresh"></i> VISIT</a>
+						<a href="counter.php" class="btn btn-primary btn-block"><i class="fa fa-refresh"></i>VISIT</a>
 						<a href="counter.php?delete=all" class="btn btn-danger btn-block" onclick="return confirm('You are sure you want to reset data?')" id="resetBtn"><i class="fa fa-eraser"></i>RESET DATA</a>
 					</div>
 				</div>
