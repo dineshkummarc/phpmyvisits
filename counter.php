@@ -26,10 +26,10 @@
 		die("Retriving Query Error<br>".$query);
 	}
 
-	// EAD VISITORS IP ADDRESS
+	// READ VISITORS IP ADDRESS
 	$visitor_ip = $_SERVER['REMOTE_ADDR'];
 
-	// MENAMBAH DATA PENGUNJUNG BARU
+	// ADD NEW VISITORS DATA
 	if(isset($visitor_ip)) {
 		$query = "INSERT INTO counter_table(ip_address) VALUE('$visitor_ip')";
 		$result = mysqli_query($connection, $query);
