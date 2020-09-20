@@ -36,7 +36,7 @@
 	}
 
 	// ERASE DATA IN TABLE
-	if(isset($_GET['hapus'])) {
+	if(isset($_GET['delete'])) {
 		$query = "TRUNCATE TABLE counter_table";
 		$result = mysqli_query($connection, $query);
 		header('location: '.$_SERVER['PHP_SELF']);
