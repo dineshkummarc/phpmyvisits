@@ -70,7 +70,7 @@
 					</div>
 					<div class="card-footer">
 						<a href="counter.php" class="btn btn-primary btn-block"><i class="fa fa-refresh"></i> VISIT</a>
-						<a href="http://localhost/click-counter/counter.php?hapus=semua" class="btn btn-danger btn-block" onclick="return confirm('Anda yakin ingin mereset data?')" id="resetBtn"><i class="fa fa-eraser"></i> &nbsp;
+						<a href="counter.php?hapus=semua" class="btn btn-danger btn-block" onclick="return confirm('Anda yakin ingin mereset data?')" id="resetBtn"><i class="fa fa-eraser"></i> &nbsp;
 RESET DATA</a>
 					</div>
 				</div>
