@@ -3,7 +3,7 @@
 	$hostname	= "localhost";
 	$db_user	= "root";
 	$db_pass	= "your_pass";
-	$db_name	= "counter";
+	$db_name	= "counter_visit";
 	
 	// KONEKSI DTABASE
 	$connection = mysqli_connect($hostname, $db_user, $db_pass, $db_name);
