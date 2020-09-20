@@ -5,7 +5,7 @@
 	$db_pass	= "";
 	$db_name	= "counter_visit";
 	
-	// KONEKSI DTABASE
+	// DATABASE CONNECTION
 	$connection = mysqli_connect($hostname, $db_user, $db_pass, $db_name);
 	if(mysqli_connect_errno()) {
 		die("Error connection to the Database");
