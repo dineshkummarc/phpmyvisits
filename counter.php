@@ -1,5 +1,5 @@
 <?php
-	// KONFIGURASI KONEKSI DATABASE
+	// CONFIGURATION OF DATABASE CONNECTIONS
 	$hostname	= "localhost";
 	$db_user	= "root";
 	$db_pass	= "";
