@@ -2,7 +2,7 @@
 	// KONFIGURASI KONEKSI DATABASE
 	$hostname	= "localhost";
 	$db_user	= "root";
-	$db_pass	= "your_pass";
+	$db_pass	= "";
 	$db_name	= "counter_visit";
 	
 	// KONEKSI DTABASE
