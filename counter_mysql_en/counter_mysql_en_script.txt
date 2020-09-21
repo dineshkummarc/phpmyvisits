@@ -1,0 +1,50 @@
+PHP counter (MySQL version)
+Visitor Statistics Visitor Statistics
+» 2 Online
+» 67 Today
+» 155 Yesterday
+» 1033 Week
+» 3068 Month
+» 46855 Year
+» 307737 Total
+Record: 809 (13.06.2018)
+Free-PHP-Counter
+The PHP counter needs a MySQL database to store the counter portfolio. Should you not have a MySQL database, please use our text counter Text counter. We recommend the MySQL version for websites with many visitors and larger pages.
+
+The following spreadsheets need to be installed in order to operate the counter. The simplest method is to implement the following lines in PHPMyAdmin.
+
+CREATE TABLE `counter_ips` (
+  `ip` varchar(15) NOT NULL,
+  `visit` datetime NOT NULL,
+  UNIQUE KEY `ip` (`ip`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE `counter_values` (
+  `id` bigint(11) NOT NULL,
+  `day_id` bigint(11) NOT NULL,
+  `day_value` bigint(11) NOT NULL,
+  `yesterday_id` bigint(11) NOT NULL,
+  `yesterday_value` bigint(11) NOT NULL,
+  `week_id` bigint(11) NOT NULL,
+  `week_value` bigint(11) NOT NULL,
+  `month_id` bigint(11) NOT NULL,
+  `month_value` bigint(11) NOT NULL,
+  `year_id` bigint(11) NOT NULL,
+  `year_value` bigint(11) NOT NULL,
+  `all_value` bigint(11) NOT NULL,
+  `record_date` datetime NOT NULL,
+  `record_value` bigint(11) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+The installation consists of copying both counter.gif and counter.php files into the main directory of your homepage, set up the spreadsheets (see above ) and enter the MySQL link parameters (available from your web host).
+
+Your counter can then be incorporated via
+
+<?php include "counter.php"; ?>
+in your homepage.
+
+Please refer to our FAQs should you need assistance with the installation. It also explains how the counter can be integrated in .html files.
+
+The advertising in the counter may only be removed when you acquire a license.
+
+Experiencing problems with the installation? We will take over the task of installation for a nominal fee.
