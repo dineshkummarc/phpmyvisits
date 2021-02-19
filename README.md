@@ -1,4 +1,4 @@
-# simple-native-php-visitor-counter
+# simple-native-php-visitor-counter (Webvisit_counter => phpmyvisits)
 Simple Visitor Counter With PHP Native
 
 # Preview
